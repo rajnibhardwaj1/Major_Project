@@ -105,9 +105,9 @@ h1{
 }
 @keyframes colorchangefunterior{
     0%{color: green;}
-    25%{color: red;}
-    50%{color:green;}
-    100%{color: red;}
+    25%{color:blue;}
+    50%{color:red;}
+    100%{color:yellow;}
 }
 .mobile-icon{
     display: none;
