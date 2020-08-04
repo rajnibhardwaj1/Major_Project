@@ -6,11 +6,11 @@
 body{
     font-size: 20px;
     overflow: hidden;
-    color:white;
+    color:orangered;
 }
 
 header{
-    background-image:/*linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0))*/ url('../interiorimage4.jpg');
+    background-image:/*linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0))*/ url('../interiorimage5.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -43,7 +43,7 @@ header{
     margin-left: 40px;
 }
 .main li a{
-    color:white;
+    color:black;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
@@ -62,7 +62,7 @@ header{
     transform:translate(-50%, -50%);
 }
 h1{
-    color: white;
+    color: black;
     font-size: 240%;
     word-spacing: 5px;
     letter-spacing: 3px;
@@ -82,32 +82,32 @@ h1{
 }
 .btn-full{
     background-color: transparent;
-    color: purple;
+    color: black;
     margin-right: 15px;
-    border: 1px solid purple;
+    border: 1px solid black;
 }
 .btn-full:hover{
-    background-color: tomato;
+    background-color: orangered;
 
 
 }
 .btn-nav{
     background-color: transparent;
-    color:white;
+    color:black;
     margin-right: 15px;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 .btn-nav:hover{
-    background-color: tomato;
+    background-color: orangered;
 }
 .colorchange{
     animation:colorchangefunterior 1s infinite;
 }
 @keyframes colorchangefunterior{
-    0%{color: yellow;}
-    25%{color: yellowgreen;}
-    50%{color: tomato;}
-    100%{color: orangered;}
+    0%{color: green;}
+    25%{color: red;}
+    50%{color:green;}
+    100%{color: red;}
 }
 .mobile-icon{
     display: none;
